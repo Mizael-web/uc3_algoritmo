@@ -172,3 +172,63 @@ console.log(count);
 
 
 // QUESTÃO 21
+let str1 = "casa";
+let str2 = "CASA";
+
+let saoIguaisMinusculas = str1.toLowerCase() === str2.toLowerCase();
+
+let saoIguaisMaiusculas = str1.toUpperCase() === str2.toUpperCase();
+
+console.log("Iguais em minúsculas:", saoIguaisMinusculas);
+console.log("Iguais em maiúsculas:", saoIguaisMaiusculas);
+
+
+
+//QUESTÃO 22
+//forma 1
+ let numeros = [15, 20, 25, 30];
+
+// let todosMaioresQueDez = numeros.every(num => num > 10);
+
+// console.log(todosMaioresQueDez);
+
+// forma 2
+// let numeros = [15, 20, 25, 30];
+// let todosMaioresQueDez = true;
+// for (let i = 0; i < numeros.length; i++) {
+//     if (numeros[i] <= 10) {
+//         todosMaioresQueDez = false;
+//         break;
+//     }
+// }
+
+// console.log(todosMaioresQueDez);
+
+//questão 23
+
+// let numeros = [5, 8, 12, 3];
+//  let menoresquecinco = true;
+// for (let i = 0; i < numeros.length; i++) {
+//     if (numeros[i] <= 5) {
+//         menoresquecinco = false;
+//         break;
+//     }
+// }
+// console.log(menoresquecinco); 
+
+// questao 24
+// let frase = [" JavaScript é divertido! "];
+// let fraseCompleta = frase.join("");
+// console.log(fraseCompleta);
+
+// questão 25
+// let numero = 7;
+// if (numero > 10) {
+// console.log("Maior que 10");
+// } 
+// console.log("Menor que 10")
+
+
+
+
+
