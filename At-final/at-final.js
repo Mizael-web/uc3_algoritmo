@@ -229,6 +229,188 @@ console.log("Iguais em maiúsculas:", saoIguaisMaiusculas);
 // console.log("Menor que 10")
 
 
+// QUESTÃO 26
+
+let palavras = ["Eu", "amo", "JavaScript"];
+console.log(palavras.join(" ")); 
+
+
+// QUESTÃO 27
+
+let palavra = "JavaScript";
+console.log(palavra.split(""));
+
+
+// QUESTÃO 28
+
+let numero = 25;
+if (numero >= 10 && numero <= 50) {
+    console.log("Dentro do intervalo");
+} else {
+    console.log("Fora do intervalo");
+}
+
+
+// QUESTÃO 29
+
+let numeros = [2, 4, 6];
+let multiplicados = numeros.map(num => num * 3);
+console.log(multiplicados); 
+
+
+// QUESTÃO 30
+
+let str1 = "João";
+let str2 = "joão";
+console.log(str1.toLowerCase() === str2.toLowerCase()); 
+
+
+// QUESTÃO 31
+
+let nomes = ["Pedro", "Maria", "José"];
+nomes.unshift("Ana");
+console.log(nomes); 
+
+
+// QUESTÃO 32
+
+let cidades = ["Natal", "Recife", "Fortaleza"];
+cidades.pop();
+console.log(cidades);
+
+
+// QUESTÃO 33
+
+let numero = -8;
+if (numero >= 0) {
+    console.log("Positivo");
+} else {
+    console.log("Negativo");
+}
+
+// QUESTÃO 34
+
+let nome = "JavaScript";
+console.log(nome.toUpperCase());
+console.log(nome.toLowerCase());
+
+// QUESTÃO 35
+
+let numeros = [2, 4, 6, 8];
+let multiplicados = numeros.map(num => num * 2);
+console.log(multiplicados);
+
+// QUESTÃO 36
+
+let texto = "JavaScript é divertido";
+let textoSemEspacos = texto.split(" ").join("");
+console.log(textoSemEspacos); 
+
+
+// QUESTÃO 37
+
+let numero = 16;
+console.log(Math.sqrt(numero));
+
+
+// QUESTÃO 38
+
+let itens = [];
+console.log(itens.length === 0);
+
+
+// QUESTÃO 39
+
+let numero = 5;
+let fatorial = 1;
+for (let i = 1; i <= numero; i++) {
+    fatorial *= i;
+}
+console.log(fatorial);
+
+
+// QUESTÃO 40
+
+let valores = [1, 2, 3, 4, 5];
+let multiplicados = valores.map(num => num * 2);
+let soma = multiplicados.reduce((acc, val) => acc + val, 0);
+console.log(soma); 
+
+
+// QUESTÃO 41
+
+let texto = "JavaScript";
+console.log(texto.split(""));
+
+// QUESTÃO 42
+
+let parte1 = "Olá, ";
+let parte2 = "mundo!";
+let frase = parte1.concat(parte2);
+console.log(frase); 
+
+
+// QUESTÃO 43
+
+let numeroStr = "25";
+console.log(parseInt(numeroStr));
+
+
+// QUESTÃO 44
+
+let cores = ["Vermelho", "Verde", "Azul"];
+let coresFiltradas = cores.filter(cor => cor !== "Verde");
+console.log(coresFiltradas);
+
+
+// QUESTÃO 45
+
+let palavra = "JavaScript";
+console.log(palavra.length);
+
+// QUESTÃO 46
+
+let a = 5;
+let b = 7;
+let resultado = a * b;
+if (resultado > 30) {
+    console.log("Maior que 30");
+} else {
+    console.log("Menor ou igual a 30");
+}
+
+
+// QUESTÃO 47
+
+let palavra = "JavaScript";
+let invertida = palavra.split("").reverse().join("");
+console.log(invertida); 
+
+
+// QUESTÃO 48
+
+let cidades = ["Natal", "Recife", "Fortaleza"];
+cidades.shift();
+console.log(cidades);
+
+
+// QUESTÃO 49
+
+let numero = 9;
+if (numero % 2 !== 0) {
+    console.log("Ímpar");
+} else {
+    console.log("Par");
+}
+
+
+// QUESTÃO 50
+
+let numeros = [1, 2, 3, 4, 5];
+let multiplicados = numeros.map(num => num * 10);
+console.log(multiplicados);  
+
+
 
 
 
